@@ -1,90 +1,118 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-<title>Sarzi Daniel</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7; IE=EmulateIE9">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-    <link rel="shortcut icon" href=http://www.freshdesignweb.com/wp-content/themes/fv28/images/icon.ico />
-    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="fdw-demo.css" media="all" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
-   
-</head>
-<body>
- <div class="container">
-      <div class="freshdesignweb-top"><h1><a href="http://www.freshdesignweb.com">Fresh Design Web - Demo</a></h1></div><div class="clr"></div>
-			<header>
-				<h1><span>Tutorials on</span><strong> Beautiful Registration Form with HTML5 and CSS3</strong></h1>
-            </header>       
-      <div  class="form">
-    		<form id="contactform"> 
-    			<p class="contact"><label for="name">Nombre</label></p> 
-    			<input id="name" name="name" placeholder="First and last name" required="" tabindex="1" type="text"> 
-    			 
-    			<p class="contact"><label for="email">Email</label></p> 
-    			<input id="email" name="email" placeholder="example@domain.com" required="" type="email"> 
-                
-                <p class="contact"><label for="username">Crea un Usuario</label></p> 
-    			<input id="username" name="username" placeholder="username" required="" tabindex="2" type="text"> 
-    			 
-                <p class="contact"><label for="password">Crea una Contraseña</label></p> 
-    			<input type="password" id="password" name="password" required=""> 
-                <p class="contact"><label for="repassword">Confirma tu Contraseña</label></p> 
-    			<input type="password" id="repassword" name="repassword" required=""> 
-        		
-    			<input type="checkbox" name="vehicle" value="Bike"> PHP<br>
-    			<input type="checkbox" name="vehicle" value="Bike"> C#<br>
-    			<input type="checkbox" name="vehicle" value="Bike"> Phyton<br>
-    			<input type="checkbox" name="vehicle" value="Bike"> VB.NET<br>
-    			<input type="checkbox" name="vehicle" value="Bike"> JS<br>
-    			<input type="checkbox" name="vehicle" value="Bike"> Cobol<br>
+<!DOCTYPE html>
+<html lang="en">
 
-               <fieldset>
-                 <label>Fecha de Nacimiento</label>
-                  <label class="month"> 
-                  <select class="select-style" name="BirthMonth">
-                  <option value="">Mes</option>
-                  <option  value="01">Enero</option>
-                  <option value="02">Febrero</option>
-                  <option value="03" >Marzo</option>
-                  <option value="04">Abril</option>
-                  <option value="05">Mayo</option>
-                  <option value="06">Junio</option>
-                  <option value="07">Julio</option>
-                  <option value="08">Agosto</option>
-                  <option value="09">Septiembre</option>
-                  <option value="10">Octubre</option>
-                  <option value="11">Noviembre</option>
-                  <option value="12" >Diciembre</option>
-                  </label>
-                 </select>    
-                <label>Day<input class="birthday" maxlength="2" name="BirthDay"  placeholder="Day" required=""></label>
-                <label>Year <input class="birthyear" maxlength="4" name="BirthYear" placeholder="Year" required=""></label>
-              </fieldset>
-  
-            <select class="select-style gender" name="gender">
-            <option value="select">i am..</option>
-            <option value="m">Male</option>
-            <option value="f">Female</option>
-            <option value="others">Other</option>
-            </select><br><br>
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Registrate...!!!</title>
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,100,300,500">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="assets/css/form-elements.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+
+        <link rel="shortcut icon" href="assets/ico/favicon.png">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+
+    </head>
+
+    <body>
+
+        <!-- Top content -->
+        <div class="top-content">
+        	
+            <div class="inner-bg">
+                <div class="container">
+                	
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2 text">
+                            <h1>Registrate en este GENIAL sitio WEB</h1>
+                            <div class="description">
+                            	<p>
+	                            	Este es un sitio con fines educativos. Todo este material es para Programación III
+                            	</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        	
+                        <div class="col-sm-5">
+                        	
+                        	<div class="form-box">
+                        		<div class="form-top">
+	                        		<div class="form-top-left">
+	                        			<h3>Sign up now</h3>
+	                            		<p>Fill in the form below to get instant access:</p>
+	                        		</div>
+	                        		<div class="form-top-right">
+	                        			<i class="fa fa-pencil"></i>
+	                        		</div>
+	                            </div>
+	                            <div class="form-bottom">
+				                    <form role="form" action="" method="post" class="registration-form">
+				                    	<div class="form-group">
+				                    		<label class="sr-only" for="form-first-name">First name</label>
+				                        	<input type="text" name="form-first-name" placeholder="First name..." class="form-first-name form-control" id="form-first-name">
+				                        </div>
+				                        <div class="form-group">
+				                        	<label class="sr-only" for="form-last-name">Last name</label>
+				                        	<input type="text" name="form-last-name" placeholder="Last name..." class="form-last-name form-control" id="form-last-name">
+				                        </div>
+				                        <div class="form-group">
+				                        	<label class="sr-only" for="form-email">Email</label>
+				                        	<input type="text" name="form-email" placeholder="Email..." class="form-email form-control" id="form-email">
+				                        </div>
+				                        <div class="form-group">
+				                        	<label class="sr-only" for="form-about-yourself">About yourself</label>
+				                        	<textarea name="form-about-yourself" placeholder="About yourself..." 
+				                        				class="form-about-yourself form-control" id="form-about-yourself"></textarea>
+				                        </div>
+				                        <button type="submit" class="btn">Sign me up!</button>
+				                    </form>
+			                    </div>
+                        	</div>
+                        	
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
             
-            <p class="contact"><label for="phone">Mobile phone</label></p> 
-            <input id="phone" name="phone" placeholder="phone number" required="" type="text"> <br>
-            <input class="buttom" name="submit" id="submit" tabindex="5" value="Sign me up!" type="submit"> 	 
-   </form> 
-  </div>       
-</div>
-            <!-- freshdesignweb top bar -->
-            <div class="freshdesignweb-buttom">
-                <a href="http://www.freshdesignweb.com" target="_blank">Home</a>
-                <span class="right">
-                    <a href="http://www.freshdesignweb.com/beautiful-registration-form-with-html5-and-css3.html">
-                        Back to the freshdesignweb Article
-                    </a>
-                </span>
-                <div class="clr"></div>
-            </div><!--/ freshdesignweb top bar -->
-</body>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+        	<div class="container">
+        		<div class="row">
+        			
+        			<div class="col-sm-8 col-sm-offset-2">
+        				<div class="footer-border"></div>
+        				<p>Made by Anli Zaimi at <a href="http://azmind.com" target="_blank"><strong>AZMIND</strong></a> 
+        					having a lot of fun. <i class="fa fa-smile-o"></i></p>
+        			</div>
+        			
+        		</div>
+        	</div>
+        </footer>
+
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.11.1.min.js"></script>
+        <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/scripts.js"></script>
+        
+        <!--[if lt IE 10]>
+            <script src="assets/js/placeholder.js"></script>
+        <![endif]-->
+
+    </body>
+
 </html>
